@@ -23,8 +23,6 @@ const dispatch = async (host, rpcport, user, pass, method, ...params) => {
   try {
     const json = JSON.parse(await doRequest(requestOptions));
     return json;
-    // json.data.txs = json.data.txs.map((tx) => {tx.value=Math.floor(100000000*tx.value); return tx});
-    // let balance = json.data.txs.reduce((a, b) => a+b.value, 0);
   }
   catch(e) {
     console.log(e);
