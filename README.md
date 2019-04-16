@@ -1,5 +1,5 @@
 # bc-json-rpc
-ビットコインのフルノードへJSON-PRCで情報を取得する.  
+bitcoindへJSON-PRCで情報を取得する.  
 ローカルからアクセスします.
 
 ## Requirement
